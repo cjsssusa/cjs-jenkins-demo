@@ -14,7 +14,7 @@ pipelineJob('theme-park-job') {
                     remote {
                         url 'https://github.com/cjsssusa/gd1.git'
                     }
-                    branch 'master'
+                    branch 'main'
                 }
             }
         }
