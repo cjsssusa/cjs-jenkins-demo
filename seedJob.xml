@@ -2,12 +2,12 @@
 <project>
   <description></description>
   <keepDependencies>false</keepDependencies>
-  <properties/>
+  <properties />
   <scm class="hudson.plugins.git.GitSCM" plugin="git@4.2.2">
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>https://github.com/tkgregory/jenkins-demo.git</url>
+        <url>https://github.com/cjsssusa/cjs-jenkins-demo.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -16,14 +16,14 @@
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
-    <submoduleCfg class="list"/>
-    <extensions/>
+    <submoduleCfg class="list" />
+    <extensions />
   </scm>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers/>
+  <triggers />
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <javaposse.jobdsl.plugin.ExecuteDslScripts plugin="job-dsl@1.77">
@@ -41,6 +41,6 @@
       <lookupStrategy>JENKINS_ROOT</lookupStrategy>
     </javaposse.jobdsl.plugin.ExecuteDslScripts>
   </builders>
-  <publishers/>
-  <buildWrappers/>
+  <publishers />
+  <buildWrappers />
 </project>
