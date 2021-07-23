@@ -35,3 +35,18 @@ pipelineJob('theme-park-job-docker') {
         }
     }
 }
+pipelineJob('theme-park-job-aws') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        url 'https://github.com/cjsssusa/gd1.git'
+                    }
+                    branch 'main'
+                    scriptPath('Jenkinsfile-aws')
+                }
+            }
+        }
+    }
+}
