@@ -1,9 +1,8 @@
-===============================================================
+======================================
 
-                    This is a self test project.
-
-===============================================================
-
+     This is a self test project.
+     
+======================================
 Repository to go along with the following tutorials: 
 
 * *How to bootstrap Jenkins for disaster recovery and accountability* on the [master](https://github.com/tkgregory/jenkins-demo) branch 
